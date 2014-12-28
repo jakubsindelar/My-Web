@@ -1,14 +1,14 @@
-role :app, %w{pavel@vps.pdostal.cz}
-role :web, %w{pavel@vps.pdostal.cz}
-role :db,  %w{pavel@vps.pdostal.cz}
+role :app, %w{fanatik@jsindelar.cz}
+role :web, %w{fanatik@jsindelar.cz}
+role :db,  %w{fanatik@jsindelar.cz}
 
 set :rails_env, "production"
 set :stage, 'production'
 set :application, 'web'
-set :repo_url, 'git@github.com:pdostal/trandir.git'
+set :repo_url, 'git@github.com:jakubsindelar/My-Web.git'
 
 set :branch, "master"
-set :deploy_to, '/home/pavel/www/trandir.pdostal.cz'
-set :tmp_dir, "/home/pavel/tmp"
+set :deploy_to, '/home/fanatik/www/my-web'
+set :tmp_dir, "/home/fanatik/tmp"
 
-server 'vps.pdostal.cz', user: 'pavel', roles: %w{web app}
+server 'jsindelar.cz', user: 'fanatik', roles: %w{web app}
