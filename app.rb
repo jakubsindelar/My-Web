@@ -16,8 +16,8 @@ class MyWeb < Sinatra::Base
       erb :index
   end
 
-  get '/znaceni' do
-    erb :znaceni
+  get '/contacts' do
+    erb :contacts
   end
 
 end

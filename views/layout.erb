@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="cs">
   <head>
@@ -11,8 +12,18 @@
     <link href="/css/main.css" rel="stylesheet">
     <script src="/js/jquery-1.9.1.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
-	</head>
-	<body class="container">
-		<%= yield %>
-	</body>
+    <script src="lightbox/js/jquery-1.11.0.min.js"></script>
+    <script src="lightbox/js/lightbox.min.js"></script>
+    <link href="lightbox/css/lightbox.css" rel="stylesheet" />
+    </head>
+<header class="row">
+  <%= erb :header %>
+</header>
+
+    <body class="container">
+        <%= yield %>
+    </body>
+<footer class="container">
+  <%= erb :footer %>
+</footer>
 </html>
