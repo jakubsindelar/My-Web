@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 gem 'sinatra'
-gem 'bootstrap-sass', '~> 3.1.1'
+gem 'bootstrap-sass'
 group :development do
   gem 'thin'
   gem 'capistrano'

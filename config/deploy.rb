@@ -1,5 +1,5 @@
 # lock '3.1.0'
-
+set :passenger_restart_with_touch, true
 set :stages, %w(production)
 set :default_stage, 'production'
 set :scm, :git
