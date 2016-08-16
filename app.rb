@@ -20,4 +20,13 @@ class MyWeb < Sinatra::Base
     erb :contacts
   end
 
+  get '/career' do
+    erb :career
+  end
+
+    get '/webs' do
+    erb :webs
+  end
+
+
 end
