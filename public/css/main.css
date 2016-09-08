@@ -103,3 +103,9 @@ span#bullet {
 h3#career {
     text-align: center;
 }
+#footer{
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
