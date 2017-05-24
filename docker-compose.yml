@@ -1,6 +1,4 @@
-version: '2'
-
-services:
+version:'2'
   ruby:
     build: .
     command: rackup -o 0.0.0.0 -p 3000 config.ru

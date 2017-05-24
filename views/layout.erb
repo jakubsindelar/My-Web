@@ -20,10 +20,10 @@
   <%= erb :header %>
 </header>
 
-    <body class="container">
+    <body class="container col-md-12" style="border-color: orange;border-style: solid;">
         <%= yield %>
     </body>
-<footer class="container" style="width: 800px;">
+<footer class="container footer navbar-fixed-bottom col-md-12" style="border-color: yellow; border-style: solid;">
   <%= erb :footer %>
 </footer>
 </html>
