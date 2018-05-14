@@ -3,7 +3,7 @@ version: '2'
 services:
   ruby:
     build: .
-    image: jsindelar.cz:5000/myweb
+    image: 172.27.1.1:5000/myweb:latest
     command: rackup -o 0.0.0.0 -p 3000 config.ru
     volumes:
       - .:/app
