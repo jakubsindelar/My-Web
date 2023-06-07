@@ -8,3 +8,4 @@ services:
       - .:/app
     ports:
       - "3030:3000"
+    restart: always

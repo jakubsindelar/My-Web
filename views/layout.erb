@@ -10,15 +10,17 @@
 		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
 			<div class="text-center">
 				<div class="author-img" style="background-image: url(/images/about.jpg);"></div>
-				<h1 id="colorlib-logo"><a href="index.html">Jakub Šindelář</a></h1>
+				<h1 id="colorlib-logo"><a href="<%= uri('/') %>">Jakub Šindelář</a></h1>
 				<br class="position">
 				<b>Actual job</b></br>
-					Software Developer (Ruby, Docker)</br>
-					in <a href="https://unicorn.com/">Unicorn</a></br>
+					
 				</span>
-
+					Open to work
 				<span class="position">
 					<b>Terminated jobs</b></br>
+					Software Developer (Ruby, Docker)</br>
+					DevOps Engineer </br>
+					in <a href="https://unicorn.com/">Unicorn</a></br>
 					Developer & Administrator</br>
 					in <a href="https://www.siliconhill.cz/">Silicon Hill CTU Prague</a></br>
 				</span>
@@ -44,12 +46,23 @@
 				<p><small>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </span> <span>Demo Images: <a href="https://unsplash.com/" target="_blank">Unsplash.com</a></span></small></p>
-				<ul>
-					<li><a href="#"><i class="icon-facebook2"></i></a></li>
-					<li><a href="#"><i class="icon-twitter2"></i></a></li>
-					<li><a href="#"><i class="icon-instagram"></i></a></li>
-					<li><a href="#"><i class="icon-linkedin2"></i></a></li>
-				</ul>
+				<div>
+					<a target="_blank" href="https://github.com/jakubsindelar/">
+						<img src="/images/github.png" width="45px">
+					</a>
+					<a target="_blank" href="https://twitter.com/fanatik_cz">
+						<img src="/images/twitter.png" width="45px">
+					</a>
+					<a target="_blank" href="https://www.instagram.com/fanatik_cz/">
+						<img src="/images/instagram.png" width="45px">
+					</a>
+					<a target="_blank" href="https://www.facebook.com/fanatikcz">
+						<img src="/images/facebook.png" width="45px">
+					</a>
+					<a target="_blank" href="https://www.linkedin.com/in/jakub-sindelar/">
+						<img src="/images/linkedin.png" width="45px">
+					</a>
+				</div>
 			</div>
 
 		</aside>
@@ -57,67 +70,26 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 		<div id="colorlib-main">
       <%= yield %>
 
-			<section class="colorlib-contact" data-section="contact">
+			<section class="colorlib-contact" data-section="jobs">
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Get in Touch</span>
-							<h2 class="colorlib-heading">Contact</h2>
+							<h2 class="colorlib-heading">Jobs description</h2>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-5">
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-globe-outline"></i>
-								</div>
-								<div class="colorlib-text">
-									<p><a href="#">info@jsindelar.cz</a></p>
-								</div>
-							</div>
-
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-map"></i>
-								</div>
-								<div class="colorlib-text">
-									<p>Hekova 114/6, 163 00  Praha</p>
-								</div>
-							</div>
-
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-phone"></i>
-								</div>
-								<div class="colorlib-text">
-									<p><a href="tel://">+420 734 346</a></p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-7 col-md-push-1">
-							<div class="row">
-								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
-									<form action="">
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Name">
-										</div>
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Email">
-										</div>
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Subject">
-										</div>
-										<div class="form-group">
-											<textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-										</div>
-										<div class="form-group">
-											<input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
-										</div>
-									</form>
-								</div>
-
-							</div>
-						</div>
+						<h2>Software Developer</h2>
+						<p>
+							My work in this position was consists of writing unit tests in Ruby, working with docker concretely editing docker files, working with Docker Registry, Swarm, etc. On this position, I was getting better with working developer tool RubyMine too, git, and other tools.
+						</p>
+						<h2>DevOps Engineer</h2>
+						<p>
+							My work in this position still consists of writing new features working with docker and developer tools.
+							I sometimes work with MS Azure.
+							Sometimes my task is creating technical documentation too for the created feature.
+							During this work, I gained experience with the OpenSSL library, the proposal of CA for Docker, MongoDB database and etc.
+							My job is also to advise less experienced colleagues with solving their problems and pass to them the experience from the project I am working on.
+						</p>
 					</div>
 				</div>
 			</section>

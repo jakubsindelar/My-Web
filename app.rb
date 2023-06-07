@@ -29,7 +29,7 @@ class MyWeb < Sinatra::Base
   #  end
     get '/rsa_pub'  do
       content_type "application/octet-stream"
-      File.read(File.join('public', 'files', 'id_rsa.pub'))
+      File.read(File.join('public', 'files', 'ssh_public_key'))
     end
 
 
